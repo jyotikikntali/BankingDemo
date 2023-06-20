@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Automation.TestScript.CreateCustomer">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="createCustomer"/>
+          <include name="LoginData"/>
+          <include name="Logout"/>
+          <include name="Bs"/>
+          <include name="BT"/>
+        </methods>
+      </class> <!-- com.Automation.TestScript.CreateCustomer -->
+      <class name="com.Automation.TestScript.AlertsHandling">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="LoginData"/>
+          <include name="alertHandling"/>
+          <include name="Logout"/>
+          <include name="Bs"/>
+          <include name="BT"/>
+        </methods>
+      </class> <!-- com.Automation.TestScript.AlertsHandling -->
+      <class name="com.Automation.TestScript.DropdownHandling">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="dropDownHandling"/>
+          <include name="LoginData"/>
+          <include name="Logout"/>
+          <include name="Bs"/>
+          <include name="BT"/>
+        </methods>
+      </class> <!-- com.Automation.TestScript.DropdownHandling -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
